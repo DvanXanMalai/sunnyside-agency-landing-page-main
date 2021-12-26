@@ -362,6 +362,9 @@ i:hover {
     }
 }
 @media only screen and (max-width: 846px){
+    .nav-ul {
+        width: 50%;
+    }
     #hero >h1 {
         font-size: 3rem;
     }
@@ -417,6 +420,12 @@ i:hover {
     }
 }
 @media only screen and (max-width: 390px) {
+    .nav-ul {
+        width: 60%;
+    }
+    .nav-links {
+        font-size: 1rem;
+    }
     .overlay-text-wrapper {
         width: 100%;
         padding:0;
