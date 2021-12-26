@@ -1,0 +1,429 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+/* navigation */
+#nav-bar {
+    background-color: #3DBEFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 0 2%;
+}
+.nav-ul {
+    display: flex;
+    width: 32%;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    
+}
+.nav-links {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+.contact-li {
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 1%;
+    width: 140px;
+    display: flex;
+    height: 45px;
+}
+.contact {
+    padding-top: 8%;
+    padding-left: 16%;
+    color: black;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1.1rem;
+    width: 100%;
+    height: 100%;
+}
+.contact-li:hover {
+    background-color: rgba(235, 235, 235, 0.3);
+    color: white;
+}
+.contact:hover {
+    color:inherit
+}
+#logo{
+    width:10%;
+    height: 10%;
+}
+#hero {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Fraunces', sans-serif;
+}
+#hero >h1 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#arrow-down {
+    margin-top: 40px;
+    width: 80px;
+}
+
+.background {
+    background-image: url(../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* second */
+.second {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.transform, .stand-out {
+    padding:19%;
+}
+.transform-img {
+    background-image: url(../images/desktop/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.stand-out-img {
+    background-image: url(../images/desktop/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.h1-font {
+    padding-bottom: 9%;
+    font-family: 'Fraunces',sans-serif;
+    font-size: 3rem;
+}
+.p-font {
+    padding-bottom: 10%;
+    font-family: 'Barlow';
+    color: rgb(117, 116, 116);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.learn-more {
+    font-family: 'Fraunces',sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    z-index: 1;
+}
+.learn-more:hover {
+    border-bottom: 4px solid #FED201;
+    border-radius: 5px;
+}
+.stand-out-link:hover {
+    border-bottom: 4px solid rgb(233, 0, 97);
+}
+.graphic-design {
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.overlay-text-wrapper {
+    padding-top: 50%;
+    padding-left: 27%;
+    width: 70%;
+}
+.overlay-text-wrapper >h1{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.overlay-text-wrapper >p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    line-height: 28px;
+}
+.overlay-text-wrapper-green {
+    color: #315851;
+}
+.overlay-text-wrapper-blue {
+    color: #034566;
+}
+.photography {
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* third */
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 10% 10% 10%;
+}
+.third >h2 {
+    font-family: 'Fraunces', sans-serif;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+    color: rgb(145, 145, 145);
+}
+.client-testimonials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.emily, .thomas, .jennie {
+    width: 25%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.third-image {
+    display: block;
+    margin: auto;
+    width: 90px;
+    border-radius: 50%;
+}
+.client-testimonials-wrapper {
+    padding-top: 10%;
+}
+.client-review {
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(78, 78, 78);
+    line-height: 35px;
+}
+.name {
+    font-family: 'Fraunces', sans-serif;
+    padding-top: 25%;
+    padding-bottom: 2%;
+}
+.post {
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+}
+/* fourth */
+#fourth {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#milk-bottles {
+    background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#orange {
+    background-image: url(../images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#cone {
+    background-image: url(../images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#sugar {
+    background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* footer */
+footer {
+    background-color: #90D4C5;
+    text-align: center;
+}
+footer >h2 {
+    padding-top: 3%;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #336b5e
+}
+
+.footer-links {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #4e8579;
+    text-decoration: none;
+}
+#footer-ul {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    list-style: none;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+}
+i {
+    font-size: 1.7rem;
+    color: #2c5048;
+    margin-bottom: 3%;
+}
+i:hover {
+    color: white;
+    cursor: pointer;
+}
+.footer-links:hover {
+    color: white;
+}
+/* hamburger */
+.burger {
+    background: transparent;
+    border:none;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+}
+.burger-close {
+    cursor: pointer;
+    display: none;
+}
+/* media */
+@media only screen and (max-width: 597px){
+    #nav-bar {
+        background-color: #3DBEFF;
+    }
+}
+@media only screen and (max-width: 1392px){
+    .overlay-text-wrapper {
+        padding-top: 53%;    
+    }
+}
+
+@media only screen and (max-width: 1194px){
+    .overlay-text-wrapper {
+        background-position: center;
+        place-items: center;
+        padding-top: 70%;
+        width: 90%;
+    }
+    .background {
+        background-position: center;
+    }
+    .nav-ul {
+        padding: 30px 0;
+        flex-direction: column;
+        display: none;
+        background-color: white;
+        gap: 20px;
+        width: 20%;
+        margin-right: 10%;
+        border-radius: 25px;
+        border-top-right-radius: 0;
+        
+    }
+    .nav-links {
+        color: gray;
+    }
+    .contact {
+        color: black;
+    }
+    #logo {
+        width: 20%;
+    }
+    .contact-li {
+        background-color: #FBD601;
+    }
+    .burger {
+        display: block;
+        z-index: 10;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .burger-close {
+        display: none;
+        position: absolute;
+        right: 5%;
+    }
+}
+@media only screen and (max-width: 846px){
+    #hero >h1 {
+        font-size: 3rem;
+    }
+    .transform {
+        grid-column: span 2;
+    }
+    .transform-img {
+        grid-column: span 2;
+        grid-row-start: 1;
+    }
+    .stand-out-img {
+        grid-column: span 2;
+    }
+    .stand-out {
+        grid-column: span 2;
+    }
+    .overlay-text-wrapper {
+
+        padding-top: 50%;
+        width: 80%;
+    }
+    .client-testimonials {
+        flex-direction: column;
+    }
+    .emily, .thomas, .jennie {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    .third {
+        padding: 5% 5%;
+    }
+    .name {
+        padding-top: calc(-20px);
+    }
+    #fourth {
+        grid-template-columns: 50% 50%;
+    }
+    .graphic-design {
+        grid-column: span 2;
+    }
+    .photography {
+        grid-column: span 2;
+    }
+}
+@media only screen and (max-width: 740px){
+    .overlay-text-wrapper >h1 {
+        font-size: 1.5rem;
+    }
+    .overlay-text-wrapper >p {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .overlay-text-wrapper {
+        width: 100%;
+        padding:0;
+        padding: 50% 5% 2% 5%;
+    }
+    #hero >h1 {
+        font-size: 1.7rem;
+    }
+    
+}
